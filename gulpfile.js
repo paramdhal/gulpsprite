@@ -8,7 +8,8 @@ gulp.task('sprites', function () {
 		imgName: 'sprite.png',
 		cssName: '_sprites.scss',
 		cssFormat: 'scss',
-		imgPath: '/images/sprite.png'
+		imgPath: '/images/sprite.png',
+		cssTemplate: 'templates/css.template.mustache'
 	}));
 	spriteData.img.pipe(gulp.dest('app/images/'));
 	spriteData.css.pipe(gulp.dest('app/scss/'));

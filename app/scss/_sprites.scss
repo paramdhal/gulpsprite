@@ -1,0 +1,17 @@
+[class*=icon-]{
+	@include inline-block;
+	background-image: url(|}@tMedia(sprite){|);
+	background-repeat: no-repeat;
+}
+.icon-favicon-16x16{
+	background-position: 0px 0px;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-favicon-32x32{
+	background-position: 0px -16px;
+	width: 32px;
+	height: 32px;
+}
+
